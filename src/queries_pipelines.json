@@ -1,0 +1,32 @@
+{
+    "q0": {
+        "query": "Give me the serial number of camera 1 and camera 2 of all the diecutters in the factory.",
+        "data_services": ["database.GetSerialCamera2IdFromDiecutterId", "database.GetSerialCamera1IdFromDiecutterId", "database.GetDiecuttersIdOfFactory"],
+        "query_example": "Given 88888404 serial number tell me the type of camera and the diecutter it is installed on.",
+        "pipeline": "pipelines/q0.py"
+    },
+    "q1": {
+        "query": "Generate a table containing the max speed of the diecutter with id 25 over a time span of 30 seconds.",
+        "data_services": ["diecutter.GetCurrentDataFromChip", "database.GetDiecutterChipIdFromDiecutterId"],
+        "query_example": "Consider the diecutter with id 6, generate a table containing the average temperature computed over a time span of 1 minute.",
+        "pipeline": "pipelines/q1.py"
+    },
+    "q2": {
+        "query": "Generate a list of average speed values for the current session of the diecutter 7, where each average value is computed over 10 consecutive, non-overlapping time windows of 10 seconds.",
+        "data_services": ["diecutter.GetCurrentDataFromChip", "database.GetDiecutterChipIdFromDiecutterId"],
+        "query_example": "Generate a list of average temperature and total rotations values for the current session of the diecutter 25, where each value is computed over 3 consecutive, non-overlapping time windows of 30 seconds.",
+        "pipeline": "pipelines/q2.py"
+    },
+    "q3": {
+        "query": "Consider the next 30 cardboard of the diecutter with id 7. Generate a table containing (i) the number of cardboards with no defects and (ii) those with errors.",
+        "data_services": ["database.GetCamera1IdFromDiecutterId", "camera1.GetFrameFromCamera1", "camera1.DetectErrorsInCardboardUsingCamera1"],
+        "query_example": "Consider the next 5 carboard of the first diecutter. Generate a table containing: (i) the number of cardboards with no defects, (ii) those with errors, (iii) how many fold errors, and (iv) how many hole errors.",
+        "pipeline": "pipelines/q3.py"
+    },
+    "q4": {
+        "query": "Compute a table that gives some information about the current session of diecutter 14. For each stack produced, the table should tell me (i) if the stack contains errors, (ii) if it contains errors, the type of error, (iii) the current speed of the diecutter, and (iii) the current temperature of the diecutter. The table should contain data for the next 10 stacks.",
+        "data_services": ["database.GetDiecutterChipIdFromDiecutterId", "database.GetCamera2IdFromDiecutterId", "database.GetCurrentSessionIdFromDiecutterId", "diecutter.GetCurrentDataFromChip", "camera2.GetFrameFromCamera2", "camera2.DetectErrorsInCardboardStackUsingCamera2"],
+        "query_example": "Compute a table that gives some information about the current session of diecutter 14. For each erroneous stack produced, the table should tell me (i) the type of error, (ii) the current session of the diecutter, (iii) the current speed of the diecutter, (iii) the current temperature of the diecutter and (iv) the total number of rotations until now. The table should contain data for the next 30 stacks.",
+        "pipeline": "pipelines/q4.py"
+    }
+}

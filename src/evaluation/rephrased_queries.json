@@ -1,0 +1,57 @@
+{
+    "q0": [
+        "Provide a list of serial numbers for camera 1 and camera 2 from every diecutter within the factory.",
+        "Provide the serial numbers for camera 1 and camera 2 from every diecutter within the factory.",
+        "Provide the serial numbers for both camera one and camera two from every diecutter within the plant.",
+        "List the serial numbers for camera 1 and camera 2 associated with each diecutter throughout the factory.",
+        "Provide a list showing the serial numbers for camera 1 and camera 2 associated with every diecutter within the factory.",
+        "Provide the serial numbers for cameras one and two from every diecutter in the plant.",
+        "Retrieve the serial numbers for camera 1 and camera 2 from every diecutter within the plant.",
+        "Provide the serial numbers for cameras 1 and 2 from each diecutter throughout the factory.",
+        "Provide the serial numbers for cameras 1 and 2 from every diecutter in the plant."
+    ],
+    "q1": [
+        "Construct a table displaying the highest speed of the diecutter identified by id 25 during a 30-second interval.",
+        "Create a table showing the highest speed reached by the diecutter identified by ID 25 in a duration of 30 seconds.",
+        "Produce a table showing the maximum speed of the diecutter identified by id 25 within a 30-second interval.",
+        "Create a table showing the highest speed reached by the diecutter identified by id 25 within a 30-second interval.",
+        "Create a table that shows the maximum speed of the diecutter identified by id 25 during a 30-second interval.",
+        "Create a table showing the maximum speed reached by the diecutter identified by id 25 during a period of 30 seconds.",
+        "Create a table showing the highest speed of the diecutter identified by id 25 over a period of 30 seconds.",
+        "Create a table displaying the highest speed of the diecutter identified by id 25 during a period of 30 seconds.",
+        "Create a table showing the maximum speed for the diecutter identified by ID 25 over a duration of 30 seconds."
+    ],
+    "q2": [
+        "Produce a table showing the mean speeds for the present session of diecutter 7, with each mean calculated across 10 distinct, consecutive time intervals of 10 seconds each.",
+        "Produce a table showing average speed for diecutter 7 during the current session, calculated across ten sequential, non-overlapping intervals of 10 seconds each.",
+        "Create a table of mean speed figures for the ongoing session of diecutter 7, each calculated over ten distinct, consecutive time intervals of 10 seconds.",
+        "Produce a table outlining the mean speed values for the ongoing session of diecutter 7, calculated over ten successive, distinct time intervals of 10 seconds each.",
+        "Create a table of mean speeds for the ongoing session of diecutter 7, calculated across 10 successive, distinct time intervals of 10 seconds each.",
+        "Produce a table showing the mean speeds for the active session of diecutter 7, calculated over ten sequential, distinct 10-second intervals.",
+        "Produce a table of mean velocity for the ongoing session of diecutter 7, each mean computed across ten successive, distinct time intervals of ten seconds each.",
+        "Produce a table of mean speed metrics for the ongoing session of diecutter 7, with each mean speed calculated across 10 successive, distinct 10-second intervals.",
+        "Create a table of mean speed values for the ongoing session of diecutter 7, with each mean calculated across 10 distinct, successive 10-second intervals."
+    ],
+    "q3": [
+        "For the upcoming 30 cardboards processed by diecutter with id 7, compile a table listing (i) the count of defect-free cardboards and (ii) the count of cardboards containing defects.",
+        "Consider the upcoming 30 cardboard processed by diecutter with id 7. Construct a table displaying (i) the count of defect-free cardboards and (ii) the count of cardboards with defects.",
+        "For the upcoming 30 cardboards processed by the diecutter with id 7, produce a table listing (i) the count of defect-free cardboards and (ii) the count of defective cardboards.",
+        "Assess the upcoming 30 cardboards processed by diecutter id 7. Create a table displaying (i) the count of defect-free cardboards and (ii) the count of cardboards with defects.",
+        "Examine the upcoming 30 units of cardboard processed by the diecutter assigned id 7. Construct a table detailing (i) the count of defect-free cardboards and (ii) the number exhibiting defects.",
+        "Generate a table for the forthcoming 30 cardboard units processed by diecutter number 7, detailing (i) the count of defect-free cardboards and (ii) the count of cardboards with defects.",
+        "For the upcoming 30 cardboard units processed by diecutter with ID 7, produce a table showing (i) the count of defect-free cardboards and (ii) the count of cardboards that contain defects.",
+        "For the forthcoming 30 cardboard units processed by the diecutter, identified by id 7, construct a table displaying the count of defect-free cardboards and the number with defects.",
+        "Please provide a table for the upcoming 30 cardboard pieces processed by the diecutter with ID 7, detailing (i) how many cardboard pieces are defect-free and (ii) how many contain defects."
+    ],
+    "q4": [
+        "Generate a table displaying details concerning the current operation of diecutter 14. For each of the next 10 stacks produced, the table should include (i) whether the stack has errors, (ii) the error type if applicable, (iii) the running speed of the diecutter, and (iv) the current temperature of the diecutter.",
+        "Generate a table displaying details for the upcoming ten stacks from diecutter 14, including (i) presence of errors in each stack, (ii) types of errors if any exist, (iii) current operational speed of diecutter 14, and (iv) current operating temperature of diecutter 14.",
+        "Create a table detailing key aspects of the current operating session for diecutter 14. For each of the next 10 stacks processed, the table should include: (i) presence of any errors in the stack, (ii) the specific type of error if present, (iii) the operational speed of the diecutter at the time, and (iv) the diecutters temperature during production.",
+        "Generate a table detailing specifics for the ongoing session of diecutter 14, including the following for the upcoming ten stacks: (i) presence of errors in each stack, (ii) error type if applicable, (iii) the operating speed of the diecutter, and (iv) the diecutter's current temperature.",
+        "Generate a table that displays details for the ongoing session of diecutter 14. For each of the next 10 stacks produced, the table should include: (i) whether the stack has errors, (ii) the error type if there are errors, (iii) the operating speed of the diecutter, and (iv) the operating temperature of the diecutter.",
+        "Generate a table detailing the ongoing session of diecutter 14. For each of the next 10 stacks, the table should display: (i) presence of errors in the stack, (ii) type of error if applicable, (iii) current operational speed of diecutter 14, and (iv) present temperature of the diecutter.",
+        "Generate a table detailing information on the current session for diecutter 14. For each of the upcoming 10 stacks, the table should provide (i) whether the stack has any errors, (ii) the specific type of error if present, (iii) the operating speed of the diecutter, and (iv) the present temperature of the diecutter.",
+        "Generate a table displaying details for the upcoming 10 stacks from diecutter 14. The table should include: (i) whether any stack has errors, (ii) the specific error type if present, (iii) the current operating speed of diecutter 14, and (iv) the present operating temperature of diecutter 14.",
+        "Generate a table presenting details on the ongoing operation of diecutter 14. The table should include for each of the next 10 stacks: (i) error presence, (ii) specific error types if applicable, (iii) present operating speed, and (iv) current operating temperature of the diecutter."
+    ]
+}

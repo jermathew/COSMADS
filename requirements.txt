@@ -1,0 +1,15 @@
+pydantic==1.10.13
+openai
+langchain
+langchain_openai
+langchain-community
+langserve[all]
+langsmith
+docarray
+tiktoken
+pandas
+tabulate
+codebleu
+tqdm
+scikit-learn
+python-dotenv
