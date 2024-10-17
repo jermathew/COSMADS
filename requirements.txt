@@ -13,3 +13,5 @@ codebleu
 tqdm
 scikit-learn
 python-dotenv
+valentine
+yake
