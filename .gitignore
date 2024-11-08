@@ -138,6 +138,7 @@ intermediate_results.json
 result.json
 stored_pipelines.py
 temp_pipeline.py
+!src/evaluation/ground_truth/*/result.json
 
 history
 todo.md
