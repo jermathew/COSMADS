@@ -1,5 +1,5 @@
 # COSMADS: Composing SMArt Data Services through Large Language Models
-This repository contains code for replicating the experiments in *"Composing SMArt Data Services through Large Language Models"* paper.
+This repository provides the code and resources for replicating the experiments from *"Composing Smart Data Services in Shop Floors through Large Language Models"*, presented at the 22nd International Conference on Service-Oriented Computing (ICSOC 2024)
 
 
 ## Prerequisites
